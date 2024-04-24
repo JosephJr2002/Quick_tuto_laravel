@@ -9,7 +9,13 @@ Route::get('/', function () {
     $contenu = 'Ceci est notre premier essai en Laravel à Abitech Solutions. Notre encadreur est super sympa et mignon. Il nous aime bien. Jennifer aime le petit dejeuner alors que Brice a un estomac solide qui ne prend pas de petit déjeuner.';
     $titre = 'Essai';
     $soustitre = 'La vie de jennifer et de Brice';
-    return view("welcome", compact('tableau', 'nom', 'date', 'contenu', 'titre', 'soustitre'));
+    $table = ['EFFICACITE', 'RAPIDITE', 'CONFIANCE'];
+    $name = 'Brice';
+    $data = now();
+    $content = 'Ceci est mon prmeir essai en LARAVEL.';
+    $titlle = 'APPRENTISSAGE';
+    $undertitle = 'premiere page web laravel de BRICO';
+    return view("welcome", compact('tableau', 'nom', 'date', 'contenu', 'titre', 'soustitre','table','name','data','content','titlle','undertitle'));
     // $nom = 'Jennifer';
     // $date = now();
     // $contenu = 'Ceci est notre premier essai en Laravel à Abitech Solutions. Notre encadreur est super sympa et mignon. Il nous aime bien. Jennifer aime le petit dejeuner alors que Brice a un estomac solide qui ne prend pas de petit déjeuner.';
@@ -37,5 +43,9 @@ Route::get('/posts', function () {
 
 Route::get('/header', function () {
     return view('components.header');
+});
+
+Route::get('/contact', function () {
+    return view('contact');
 });
 
