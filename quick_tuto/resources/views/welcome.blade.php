@@ -69,6 +69,19 @@
                     </div>
                 </div>
             </div>
+            <br>
+            <div class="row">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">{{$ttre}}</h3>
+                        <h6>{{$souttre}}</h6>
+                    </div>
+                    <div class="card-body">
+                    {{$cont}}     
+                    <div class="card-footer">
+                    <small>Ecrit par: <b>{{$pren}}</b> le {{$dat}}</small>
+                    <p class="float-end"><a href="#" class="btn btn-info">Modifier</a> <input type="submit" name="" class="btn btn-danger" value="Supprimer"></p>
+                    </div>            
         </header>
     </div>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
