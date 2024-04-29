@@ -8,9 +8,13 @@
 </head>
 <body class="container">
  <p class="text-center">
- Cette page web est juste un essai dans l'apprentissage du freemwork laravel .
- Dans le souci de maitriser un fremework qui va nous permetre de vite realiser nos projets et gagnet du temps  dans la realisation de nos projets et dans l'apprentissage de nouvelles competences . 
- En somme cette page web n'est rien d'autres qu'esai dans notre processus d'apprentissage
+ <ul>
+  <B>
+  <li>MTN 61195414</li>
+    <li>MOOV 65878312</li>
+    <li>CELTIS 40697116</li>
+  </B>
+ </ul>
  </p>
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
